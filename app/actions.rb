@@ -1,3 +1,4 @@
 get '/' do
-    "Dea was here!"
+    File.read(File.join('app/views','index.html'))
   end
+  
